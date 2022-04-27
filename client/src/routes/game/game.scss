@@ -1,0 +1,42 @@
+.body {
+  width: 100vw;
+  background-color: #c4c4c4;
+  height: 100vh;
+  align-content: center;
+}
+
+.grid {
+  display: flex; /* establish flex container */
+  flex-wrap: wrap; /* enable flex items to wrap */
+  justify-content: space-around;
+  background-color: aqua;
+  width: 450px;
+  height: 450px;
+  padding: 25px;
+  div {
+    flex: 0 0 32%; /* don't grow, don't shrink, width */
+    height: 140px;
+    background-color: #999;
+  }
+}
+
+.title {
+  font-size: xx-large;
+  flex: 1;
+  text-align: center;
+}
+
+.textthing {
+  font-size: 40px;
+  text-align: center;
+}
+
+.center-vertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.center-horizontal {
+  position: relative;
+  margin: auto;
+}
