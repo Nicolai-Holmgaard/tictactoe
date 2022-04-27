@@ -11,17 +11,11 @@ Make sure you have `ts-node` intstalled to run the backend
 
 ## Usage
 
-For the client go in the `client` folder and run:
+For the client run the ``startBackend.sh`` file
 
-```
-npm start
-```
 
-For the client go in the `server` folder and run:
+For the client run the ``startReact.sh`` file
 
-```
-ts-node index.ts
-```
 
 ## Contributing
 
